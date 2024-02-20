@@ -1,0 +1,21 @@
+@font-face {
+  font-family: PokeFont;
+  src: url("../assets/PokeFont.otf");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: PokeFont, Arial, Helvetica, sans-serif;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)
+  ), url("../assets/poke-wallpaper.jpg") no-repeat center;
+  background-blend-mode: darken;
+  background-size: cover;
+}

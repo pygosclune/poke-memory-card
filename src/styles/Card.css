@@ -1,0 +1,16 @@
+.pokemonCard {
+    border-radius: 12px;
+    border: 2px solid black;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.pokemonImage {
+    width: 100px;
+    height: auto;
+}
+
+.pokemonName {
+    color: black;
+    text-align: center;
+}
